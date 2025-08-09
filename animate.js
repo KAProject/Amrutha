@@ -131,3 +131,14 @@ document.onmousewheel = function(e) {
   radius += d;
   init(1);
 };
+
+function password() {
+  var pass = prompt("Hii");
+  if (pass === "...") {
+    window.location.href = "secret.html";
+  } else {
+    alert("How are you");
+  }
+// Add an image to trigger the password prompt
+  // <img onclick="password();" src="emoji.png" alt="" style="width: 15vw; height: 15vh;">
+}
